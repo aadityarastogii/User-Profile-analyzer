@@ -1,0 +1,120 @@
+/* Reset and normalize styles for consistency across browsers */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 16px;
+    font-family: 'Inter', sans-serif; /* You can change this to your preferred font */
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  body {
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Container for general layout */
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 1rem;
+  }
+  
+  /* Styling for navbar */
+  .navbar {
+    background-color: #007acc;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Input styling */
+  .input {
+    width: 100%;
+    padding: 0.8rem;
+    margin: 1rem 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .input:focus {
+    border-color: #007acc;
+    outline: none;
+    box-shadow: 0 0 4px rgba(0, 122, 204, 0.6);
+  }
+  
+  /* Repository list styles */
+  ul {
+    list-style-type: none;
+  }
+  
+  ul li {
+    background-color: #fff;
+    margin: 0.5rem 0;
+    padding: 0.8rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    color: #007acc;
+    font-weight: bold;
+  }
+  
+  ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Chart container */
+  h2 {
+    margin: 2rem 0 1rem;
+    font-size: 1.5rem;
+  }
+  
+  .chart-container {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .button {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #007acc;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .button:hover {
+    background-color: #005f99;
+    transform: translateY(-2px);
+  }
+  
+  .button:active {
+    background-color: #004c7a;
+    transform: translateY(0);
+  }
+  
+  .button:focus {
+    outline: 2px solid #005f99;
+    outline-offset: 2px;
+  }
+  
